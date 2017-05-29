@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "ubuntumono-r";
+  src: local("ubuntumono-r"), url("../fonts/ubuntumono-r-webfont.woff");
+  font-weight: 200;
+  font-style: normal;
+}
+body {
+  background-color: #320927;
+}
+
+* {
+  box-sizing: border-box;
+  color: #3A3335;
+  font-family: sans-serif;
+  font-family: "ubuntumono-r";
+  color: white;
+  font-size: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #494843;
+}
+
+header, header > .container {
+  min-height: 5vh;
+}
+
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#me {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#flags {
+  display: flex;
+}
+
+main, main > #routing {
+  min-height: 90vh;
+}
+
+#navi {
+  position: relative;
+  top: 10px;
+  min-height: 5vh;
+}
+
+#content {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer, footer > .container {
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul * {
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+}
+
+#pl, #en {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid black;
+}
+
+#pl {
+  background-image: url(../images/pl.jpg);
+}
+
+#en {
+  background-image: url(../images/en.png);
+}
+
+#about {
+  text-align: center;
+  vertical-align: middle;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	top: 50%;
+}
+
+.router-link-exact-active {
+  background-color: white;
+  color: #320927;
+}
+
+.bounce-enter-active {
+  animation: bounce-in .5s;
+}
+.bounce-leave-active {
+  animation: bounce-in .5s reverse;
+}
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@-webkit-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+@-moz-keyframes typing {
+    from { width: 100% }
+    to { width:0 }
+}
+
+@-moz-keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+}
+
+/*body { font-family: Consolas, monospace; }*/
+
+#home { 
+    position: relative; 
+    float: left;
+    font-size:30px;
+		letter-spacing: 0.5rem;
+		word-spacing: 0.5rem;
+}
+
+#home span {
+    position:absolute;
+    top:0;
+    right:0;
+    width:0;
+		height: 32px;
+    background: #320927; /* same as background */
+    border-left: .1em solid white;
+    
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+    -webkit-animation: typing 10s steps(41, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+    -moz-animation: typing 10s steps(41, end), /* # of steps = # of characters */
+                        blink-caret 1s step-end infinite;
+}
+
+#myself {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+#my_pic {
+	background-size: cover;
+  background-position: center;
+	margin-right: 10px;
+  height: 300px;
+  width: 200px;
+  border: 1px solid white;
+	background-image: url(../images/me_pixled.jpg);
+}
+
+#my_pic:hover {
+	background-image:url(../images/DSC_0053p.JPG);
+}
+
+
+#content > span {
+	width: 100%;
+	height:100%;
+}
+
+#skills {
+	width: 100%;
+	height: inherit;
+	display: flex;
+	flex-direction:  column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#known_icons  {
+	margin-top: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#used_icons, #learn_icons {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+#vs_code, #avocode, #vuejs {
+	width: 80px;
+	height: 80px;
+}
+
+#skills img {
+	cursor: pointer;
+}

@@ -1,0 +1,116 @@
+@font-face {
+  font-family: "ubuntumono-r";
+  src: local("ubuntumono-r"), url("../fonts/ubuntumono-r-webfont.woff");
+  font-weight: 200;
+  font-style: normal; }
+
+/* line 11, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+body {
+  background-color: #320927; }
+
+/* line 15, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+* {
+  box-sizing: border-box;
+  color: #3A3335;
+  font-family: sans-serif;
+  font-family: "ubuntumono-r";
+  color: white;
+  font-size: 20px; }
+
+/* line 24, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto; }
+
+/* line 31, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+header {
+  background-color: #494843; }
+
+/* line 35, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+header, header > .container {
+  min-height: 5vh; }
+
+/* line 39, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/* line 45, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#me {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 500; }
+
+/* line 51, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#flags {
+  display: flex; }
+
+/* line 55, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+main, main > #routing {
+  min-height: 90vh; }
+
+/* line 59, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#navi {
+  position: relative;
+  top: 10px;
+  min-height: 5vh; }
+
+/* line 65, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#content {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 72, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+footer, footer > .container {
+  min-height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* line 79, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around; }
+
+/* line 85, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+ul * {
+  text-decoration: none; }
+
+/* line 89, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+li {
+  text-align: center; }
+
+/* line 93, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#pl, #en {
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 20px;
+  height: 30px;
+  width: 60px;
+  border: 1px solid black; }
+
+/* line 103, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#pl {
+  background-image: url(../images/pl.jpg); }
+
+/* line 107, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#en {
+  background-image: url(../images/en.png); }
+
+/* line 111, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+#about {
+  text-align: center;
+  vertical-align: middle; }
+
+/* line 116, /home/wiciu/files/Witold_Slawko_portfolio/scss/style.scss */
+.router-link-exact-active {
+  background-color: white;
+  color: #320927; }
+
+/*# sourceMappingURL=style.css.map */
