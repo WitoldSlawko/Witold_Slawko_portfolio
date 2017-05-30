@@ -71,7 +71,29 @@ const Projects = {
 	template: 
 	`
 		<transition name="bounce">
-			<div id="projects">projects</div>
+			<div id="projects" :key="0">
+					<div id="hangman" :key="1">
+						<p>Hangman Game - project made for Coders Lab Front-End Course</p>
+						<div>
+							<img src="./images/hangman.png" title="Press and hold for zoom" />
+							<a href="https://witoldslawko.github.io/The_Hangman_CL_Project/" target="_blank">https://witoldslawko.github.io/The_Hangman_CL_Project/</a>
+						</div>
+					</div>
+					<div id="PN2" :key="2">
+						<p>Non-public Kindergeraten No 2 in Zgorzelec - page made in ReactJS as SPA</p>
+						<div>
+							<img src="./images/pn2.png" title="Press and hold for zoom" />
+							<a href="https://pn-2-zgorzelec.herokuapp.com/#/ " target="_blank">https://pn-2-zgorzelec.herokuapp.com/#/</a>
+						</div>
+					</div>
+					<div id="vilb" :key="3">
+						<p>Vanilla Image LightBox - a CDN tool made in purse JavaScript for fast images inspection</p>
+						<div>
+							<img src="./images/vilb.png" title="Press and hold for zoom" />
+							<a href="https://witoldslawko.github.io/Vanilla_Image_LightBox/" target="_blank">https://witoldslawko.github.io/Vanilla_Image_LightBox/</a>
+						</div>
+					</div>
+			</div>
 		</transition>
 	`
 };
@@ -79,7 +101,22 @@ const Contact = {
 	template: 
 	`
 		<transition name="bounce">
-			<div id="contact">contact</div>
+			<div id="contact">
+				<div id="phone">
+					<p>phone:&nbsp;0048-609-929-730</p>
+				</div>
+				<div id="email">
+					<p>e-mail:&nbsp;witold.slawko@gmail.com</p>
+				</div>
+				<div id="linkedin">
+					<p>Linkedin:&nbsp;</p>
+					<a href="https://www.linkedin.com/in/witold-slawko/" target="_blank">https://www.linkedin.com/in/witold-slawko/</a>
+				</div>
+				<div id="github">
+					<p>Github:&nbsp;</p>
+					<a href = "https://github.com/WitoldSlawko" target="_blank">https://github.com/WitoldSlawko</a>
+				</div>
+			</div>
 		</transition>
 `
 };
@@ -124,13 +161,18 @@ var time_date = new Vue({
 	el: "#time_date",
 	data: {
 		info_in: JSON.stringify(new Date()),
-		info_out: ''
+		info_out: ""
 	}
 })
 
 time_date.info_out = time_date.info_in.slice(1,time_date.info_in.length-5);
 time_date.info_out = time_date.info_out.replace('T', ' ');
+var plus2h = parseInt(time_date.info_out.charAt(12))+2;
+var part_left = time_date.info_out.slice(0,12);
+var part_right = time_date.info_out.slice(13,time_date.info_out.length);
+time_date.info_out = part_left + plus2h + part_right;
 time_date.$el.innerHTML = 'Loaded at: ' + time_date.info_out;
-
+/*
 var napis = 'Junior Front-End Developer: Witold Sławko'
 console.log(napis.length);
+*/
