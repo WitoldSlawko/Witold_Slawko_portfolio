@@ -25,11 +25,19 @@ const About = {
 			<div id="myself" :key="0">
 				<div id="my_pic" :key="1"></div>
 					<div id="about" :key="2">
-						Hello! <br>
+						Hello! 
+						<br><br>
 						I'm an ambitious code passionate who recently <br>
 						graduated Coders Lab front-end bootcamp <br> 
 						and is determinated to start working <br>
 						as a junior front-end developer.
+						<br><br>
+						At the moment I'm learning more about ES6, ReactJS & Vue.js.<br>
+						Also currently participating in JS Up Skill<br>
+						and other Front-End / JavaScript related meetings.
+						<br><br>
+						Also in future, beside JavaScipt, I plan to master Ruby with Ruby on Rails<br>
+						becasue I am strongly focused on Object Oriented Programming.
 					</div>
 			</div>
 		</transition-group>
@@ -80,14 +88,14 @@ const Projects = {
 						</div>
 					</div>
 					<div id="PN2" :key="2">
-						<p>Non-public Kindergeraten No 2 in Zgorzelec - page made in ReactJS as SPA</p>
+						<p>Non-public Kindergarten No 2 in Zgorzelec - page made in ReactJS as SPA</p>
 						<div>
 							<img src="./images/pn2.png" title="Press and hold for zoom" />
 							<a href="https://pn-2-zgorzelec.herokuapp.com/#/ " target="_blank">https://pn-2-zgorzelec.herokuapp.com/#/</a>
 						</div>
 					</div>
 					<div id="vilb" :key="3">
-						<p>Vanilla Image LightBox - a CDN tool made in purse JavaScript for fast images inspection</p>
+						<p>Vanilla Image LightBox - a CDN tool made in pure JavaScript for fast images inspection</p>
 						<div>
 							<img src="./images/vilb.png" title="Press and hold for zoom" />
 							<a href="https://witoldslawko.github.io/Vanilla_Image_LightBox/" target="_blank">https://witoldslawko.github.io/Vanilla_Image_LightBox/</a>
@@ -167,10 +175,12 @@ var time_date = new Vue({
 
 time_date.info_out = time_date.info_in.slice(1,time_date.info_in.length-5);
 time_date.info_out = time_date.info_out.replace('T', ' ');
+/*
 var plus2h = parseInt(time_date.info_out.charAt(12))+2;
 var part_left = time_date.info_out.slice(0,12);
 var part_right = time_date.info_out.slice(13,time_date.info_out.length);
 time_date.info_out = part_left + plus2h + part_right;
+*/
 time_date.$el.innerHTML = 'Loaded at: ' + time_date.info_out;
 /*
 var napis = 'Junior Front-End Developer: Witold Sławko'
