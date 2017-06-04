@@ -112,10 +112,15 @@ li {
   text-align: center;
   vertical-align: middle;
 	display: flex;
+  flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	position: relative;
 	top: 50%;
+  a {
+    display: inline;
+    text-decoration: none;
+  }
 }
 
 .router-link-exact-active {
@@ -296,6 +301,13 @@ li {
     color: #320927;
   }
 
-#contact * {
-  font-size: 2rem;
+#contact {
+  * {
+    font-size: 2rem;
+  }
+  img {
+    width: 33px;
+    height: 33px;
+    margin-right: 10px;
+  }
 }

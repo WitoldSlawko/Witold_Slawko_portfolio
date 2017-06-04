@@ -111,10 +111,15 @@ li {
   text-align: center;
   vertical-align: middle;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
   top: 50%;
+}
+#about a {
+  display: inline;
+  text-decoration: none;
 }
 
 .router-link-exact-active {
@@ -303,6 +308,11 @@ li {
 
 #contact * {
   font-size: 2rem;
+}
+#contact img {
+  width: 33px;
+  height: 33px;
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

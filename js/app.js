@@ -38,6 +38,8 @@ const About = {
 						<br><br>
 						Also in future, beside JavaScipt, I plan to master Ruby with Ruby on Rails<br>
 						becasue I am strongly focused on Object Oriented Programming.
+						<br><br>
+						<p :key="3">Checkout my CV: <a href="./pdf/Witold_Sławko_CV_en.pdf" target="_blank">here</a></p>
 					</div>
 			</div>
 		</transition-group>
@@ -109,19 +111,21 @@ const Contact = {
 	template: 
 	`
 		<transition name="bounce">
-			<div id="contact">
-				<div id="phone">
-					<p>phone:&nbsp;0048-609-929-730</p>
+			<div id="contact" :key="0">
+				<div id="phone" :key="1">
+					<p>phone:&nbsp;&#9742;&nbsp;0048-609-929-730</p>
 				</div>
-				<div id="email">
-					<p>e-mail:&nbsp;witold.slawko@gmail.com</p>
+				<div id="email" :key="2">
+					<p>e-mail:&nbsp;&#9993;&nbsp;witold.slawko@gmail.com</p>
 				</div>
-				<div id="linkedin">
+				<div id="linkedin" :key="3">
 					<p>Linkedin:&nbsp;</p>
+					<img src="./images/linkedin-logo.png" />
 					<a href="https://www.linkedin.com/in/witold-slawko/" target="_blank">https://www.linkedin.com/in/witold-slawko/</a>
 				</div>
-				<div id="github">
+				<div id="github" :key="4">
 					<p>Github:&nbsp;</p>
+					<img src="./images/github-logo.png" />
 					<a href = "https://github.com/WitoldSlawko" target="_blank">https://github.com/WitoldSlawko</a>
 				</div>
 			</div>
