@@ -29,7 +29,7 @@ const About = {
 						<br><br>
 						 I'm an ambitious code passionate, <br>
 						 with strong analytical and problem solving skills. <br> 
-						 Everyday I seek to develop my skills higher. <br>
+						 Everyday I seek to improve myself. <br>
  						 Also, I'm a very communicative  and open minded person.
 						<br><br>
 						At the moment I'm learning more about ES6, ReactJS & Vue.js.<br>
