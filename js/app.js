@@ -85,10 +85,10 @@ const Projects = {
 		<transition name="bounce">
 			<div id="projects" :key="0">
 					<div id="hangman" :key="1">
-						<p>Hangman Game - project made for Coders Lab Front-End Course</p>
+						<p>Open Shout Wall - my first Ruby on Rails project</p>
 						<div>
-							<img src="./images/hangman_ss.png" title="Press and hold for zoom" />
-							<a href="https://witoldslawko.github.io/The_Hangman_CL_Project/" target="_blank">https://witoldslawko.github.io/The_Hangman_CL_Project/</a>
+							<img src="./images/osw_ss.png" title="Press and hold for zoom" />
+							<a href="https://ror1osw.herokuapp.com/" target="_blank">https://ror1osw.herokuapp.com/</a>
 						</div>
 					</div>
 					<div id="PN2" :key="2">
@@ -98,7 +98,14 @@ const Projects = {
 							<a href="https://pn-2-zgorzelec.herokuapp.com/#/ " target="_blank">https://pn-2-zgorzelec.herokuapp.com/#/</a>
 						</div>
 					</div>
-					<div id="vilb" :key="3">
+					<div id="hangman" :key="3">
+						<p>Hangman Game - project made for Coders Lab Front-End Course</p>
+						<div>
+							<img src="./images/hangman_ss.png" title="Press and hold for zoom" />
+							<a href="https://witoldslawko.github.io/The_Hangman_CL_Project/" target="_blank">https://witoldslawko.github.io/The_Hangman_CL_Project/</a>
+						</div>
+					</div>
+					<div id="vilb" :key="4">
 						<p>Vanilla Image LightBox - a CDN tool made in pure JavaScript for fast images inspection</p>
 						<div>
 							<img src="./images/vilb_ss.png" title="Press and hold for zoom" />
