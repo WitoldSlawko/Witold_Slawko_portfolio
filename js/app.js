@@ -87,21 +87,21 @@ const Projects = {
 					<div id="hangman" :key="1">
 						<p>Hangman Game - project made for Coders Lab Front-End Course</p>
 						<div>
-							<img src="./images/hangman.png" title="Press and hold for zoom" />
+							<img src="./images/hangman_ss.png" title="Press and hold for zoom" />
 							<a href="https://witoldslawko.github.io/The_Hangman_CL_Project/" target="_blank">https://witoldslawko.github.io/The_Hangman_CL_Project/</a>
 						</div>
 					</div>
 					<div id="PN2" :key="2">
 						<p>Non-public Kindergarten No 2 in Zgorzelec - page made in ReactJS as SPA</p>
 						<div>
-							<img src="./images/pn2.png" title="Press and hold for zoom" />
+							<img src="./images/pn2_ss.png" title="Press and hold for zoom" />
 							<a href="https://pn-2-zgorzelec.herokuapp.com/#/ " target="_blank">https://pn-2-zgorzelec.herokuapp.com/#/</a>
 						</div>
 					</div>
 					<div id="vilb" :key="3">
 						<p>Vanilla Image LightBox - a CDN tool made in pure JavaScript for fast images inspection</p>
 						<div>
-							<img src="./images/vilb.png" title="Press and hold for zoom" />
+							<img src="./images/vilb_ss.png" title="Press and hold for zoom" />
 							<a href="https://witoldslawko.github.io/Vanilla_Image_LightBox/" target="_blank">https://witoldslawko.github.io/Vanilla_Image_LightBox/</a>
 						</div>
 					</div>
