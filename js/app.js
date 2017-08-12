@@ -13,7 +13,7 @@ const Home = Vue.component('home', {
   template: 
 	`
 		<transition name="bounce">
-			<div id="home">Junior Front-End Developer:Witold Sławko<span>&nbsp;</span></div>
+			<div id="home">Junior Web Developer Witold Sławko<span>&nbsp;</span></div>
 		</transition>
 	`
 });
@@ -27,10 +27,10 @@ const About = {
 					<div id="about" :key="2">
 						Hello! 
 						<br><br>
-						I'm an ambitious code passionate who recently <br>
-						graduated Coders Lab front-end bootcamp <br> 
-						and is determinated to start working <br>
-						as a junior front-end developer.
+						 I'm an ambitious code passionate, <br>
+						 with strong analytical and problem solving skills. <br> 
+						 Everyday I seek to develop my skills higher. <br>
+ 						 Also, I'm a very communicative  and friendly person.
 						<br><br>
 						At the moment I'm learning more about ES6, ReactJS & Vue.js.<br>
 						Also currently participating in JS Up Skill<br>
@@ -66,10 +66,12 @@ const Skills = {
 				<div id="used_icons">
 					<img id="vs_code" title="Visual Code Studio" src="./images/visual-studio-code-logo.png"/>
 					<img id="avocode" title="Avocode" src="./images/avocode-logo.png"/>
-					<img id="chrome" title="Chrom Dev Tools"  src="./images/chrome-min.png" />
+					<img id="chrome" title="Chrome Dev Tools"  src="./images/chrome-min.png" />
 				</div>
 				<p id="learn" :key="4">At the moment, I'm learning:</p>
 				<div id="learn_icons">
+					<img id="ruby" title="Ruby" src="./images/ruby-logo.png" />
+					<img id="rails" title="Rails" src="./images/rails-logo.png" />
 					<img id="react" title="ReactJS" src="./images/react-min.png" />
 					<img id="vuejs" title="vueJS" src="./images/vuejs-logo.png"/>
 				</div>
