@@ -32,7 +32,7 @@ const About = {
 						 Everyday I seek to improve myself. <br>
  						 Also, I'm a very communicative  and open minded person.
 						<br><br>
-						At the moment I'm learning more about ES6, ReactJS & Vue.js.<br>
+						At the moment I'm learning more about ES6, Ruby on Rails, ReactJS & Vue.js.<br>
 						Also currently participating in JS Up Skill<br>
 						and other Front-End / JavaScript related meetings.
 						<br><br>
