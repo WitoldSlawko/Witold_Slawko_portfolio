@@ -39,7 +39,7 @@ const About = {
 						Also in future, beside JavaScipt, I plan to master Ruby with Ruby on Rails<br>
 						becasue I am strongly focused on Object Oriented Programming.
 						<br><br>
-						<p :key="3">Check out my CV: <a href="./pdf/Witold_Sławko_CV_eng.pdf" target="_blank">here</a></p>
+						<p :key="3">Check out my CV: <a href="./pdf/Witold_Sławko_CV_english.pdf" target="_blank">here</a></p>
 					</div>
 			</div>
 		</transition-group>
