@@ -275,6 +275,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   }
 
   #projects p{
@@ -314,6 +315,7 @@ li {
 
 #projects a, #contact a {
   text-decoration: none;
+  text-align: center;
 }
 
 #projects a:hover, #contact a:hover {
