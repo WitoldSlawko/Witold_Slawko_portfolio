@@ -85,7 +85,7 @@ const Projects = {
 		<transition name="bounce">
 			<div id="projects" :key="0">
 					<div id="hangman" :key="1">
-						<p>Open Shout Wall - my first Ruby on Rails project</p>
+						<p>Open Shout Wall - a Ruby on Rails project</p>
 						<div>
 							<img src="./images/osw_ss.png" title="Press and hold for zoom" />
 							<a href="https://ror1osw.herokuapp.com/" target="_blank">https://ror1osw.herokuapp.com/</a>
@@ -112,6 +112,20 @@ const Projects = {
 							<a href="https://witoldslawko.github.io/Vanilla_Image_LightBox/" target="_blank">https://witoldslawko.github.io/Vanilla_Image_LightBox/</a>
 						</div>
 					</div>
+					<div id="vilb" :key="5">
+						<p>JSXGEN npm package - JSX generator for React projects.</p>
+						<div>
+							<img src="./images/jsxgen_ss.png" title="Press and hold for zoom" />
+							<a href="https://www.npmjs.com/package/jsxgen" target="_blank">https://www.npmjs.com/package/jsxgen</a>
+					</div>
+				</div>
+				<div id="vilb" :key="6">
+					<p>RFT Ruby gem - a CLI Ruby Files Tamer for text files.</p>
+					<div>
+						<img src="./images/rft_ss.png" title="Press and hold for zoom" />
+						<a href="https://rubygems.org/gems/rft" target="_blank">https://rubygems.org/gems/rft</a>
+				</div>
+			</div>
 			</div>
 		</transition>
 	`

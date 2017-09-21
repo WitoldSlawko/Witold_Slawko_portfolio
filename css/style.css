@@ -223,6 +223,7 @@ li {
   width: 200px;
   border: 1px solid white;
   background-image: url(../images/me_pixled.jpg);
+  background-position: center;
 }
 
 #my_pic:hover {
