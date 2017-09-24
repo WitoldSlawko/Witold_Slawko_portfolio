@@ -299,12 +299,14 @@ li {
 
 #projects p {
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #projects img {
   width: 200px;
   height: 100px;
   margin-right: 20px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 

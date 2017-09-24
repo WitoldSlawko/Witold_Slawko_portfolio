@@ -126,7 +126,14 @@ const Projects = {
 							<a href="https://www.npmjs.com/package/jsxgen" target="_blank">https://www.npmjs.com/package/jsxgen</a>
 					</div>
 				</div>
-				<div id="rft" :key="7">
+				<div id="eut" :key="7">
+					<p>EUT - Elemantary Unit Testing - basic unit testing, based on goods of object prototyping.</p>
+					<div>
+						<img src="./images/eut_ss.png" title="Press and hold for zoom" />
+						<a href="https://www.npmjs.com/package/eut" target="_blank">https://www.npmjs.com/package/eut</a>
+					</div>
+				</div>
+				<div id="rft" :key="8">
 					<p>RFT Ruby gem - a CLI Ruby Files Tamer for text files.</p>
 					<div>
 						<img src="./images/rft_ss.png" title="Press and hold for zoom" />
