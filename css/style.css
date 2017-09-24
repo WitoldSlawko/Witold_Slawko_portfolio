@@ -283,6 +283,11 @@ li {
   margin-bottom: 30px;
 }
 
+#projects > div {
+  border: 2px solid white;
+  padding: 20px 0;
+}
+
 #projects > div > div, #contact > div {
   width: 100%;
   display: flex;

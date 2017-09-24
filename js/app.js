@@ -98,28 +98,35 @@ const Projects = {
 							<a href="https://pn-2-zgorzelec.herokuapp.com/#/ " target="_blank">https://pn-2-zgorzelec.herokuapp.com/#/</a>
 						</div>
 					</div>
-					<div id="hangman" :key="3">
+					<div id="json_parser" :key="3">
+						<p>JSON parser - React app for parsing JSON data to eye-friendly view. </p>
+						<div>
+							<img src="./images/json_parser_ss.png" title="Press and hold for zoom" />
+							<a href="https://json-parser-beta.herokuapp.com" target="_blank">https://json-parser-beta.herokuapp.com</a>
+						</div>
+					</div>
+					<div id="hangman" :key="4">
 						<p>Hangman Game - project made for Coders Lab Front-End Course</p>
 						<div>
 							<img src="./images/hangman_ss.png" title="Press and hold for zoom" />
 							<a href="https://witoldslawko.github.io/The_Hangman_CL_Project/" target="_blank">https://witoldslawko.github.io/The_Hangman_CL_Project/</a>
 						</div>
 					</div>
-					<div id="vilb" :key="4">
+					<div id="vilb" :key="5">
 						<p>Vanilla Image LightBox - a CDN tool made in pure JavaScript for fast images inspection</p>
 						<div>
 							<img src="./images/vilb_ss.png" title="Press and hold for zoom" />
 							<a href="https://witoldslawko.github.io/Vanilla_Image_LightBox/" target="_blank">https://witoldslawko.github.io/Vanilla_Image_LightBox/</a>
 						</div>
 					</div>
-					<div id="vilb" :key="5">
+					<div id="jsxgen" :key="6">
 						<p>JSXGEN npm package - JSX generator for React projects.</p>
 						<div>
 							<img src="./images/jsxgen_ss.png" title="Press and hold for zoom" />
 							<a href="https://www.npmjs.com/package/jsxgen" target="_blank">https://www.npmjs.com/package/jsxgen</a>
 					</div>
 				</div>
-				<div id="vilb" :key="6">
+				<div id="rft" :key="7">
 					<p>RFT Ruby gem - a CLI Ruby Files Tamer for text files.</p>
 					<div>
 						<img src="./images/rft_ss.png" title="Press and hold for zoom" />
